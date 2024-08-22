@@ -1,0 +1,22 @@
+{
+  "name": "Vapi4k Template",
+  "description": "A vapi4k template app",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "https://avatars.githubusercontent.com/u/28214161?s=48&v=4",
+  "keywords": [
+    "vapi",
+    "vapi4k"
+  ],
+  "env": {
+    "IS_PRODUCTION": {
+      "value": "false",
+      "required": true,
+      "description": "Enable the validator to work during debugging with false. Assign to true for production."
+    },
+    "SERVER_BASE_URL": {
+      "value": "https://your_vapi_app_name.herokuapp.com",
+      "required": true,
+      "description": "Base url of your heroku server"
+    }
+  }
+}
